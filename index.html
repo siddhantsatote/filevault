@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>upload</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/home.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="menu-bar">
+          <div class="logo"><h2>FileVault</h2></div>
+          <ul>
+            <li><a class="menu" href="./index.html">HOME</a></li>
+            <li><a href="./src/setup.html">INSTALLATION</a></li>
+            <li><a href="./src/about.html">ABOUT</a></li>
+            <li><a href="./src/contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <a class="brand" href="https://stopover.store/@sidbixx"><ion-icon name="shirt-outline"></ion-icon></a>
+        <a class="download-code" href="https://drive.google.com/drive/folders/1mwuUlM_q9JhcgSWDGt1HlTrx85nDjiFh?usp=sharing"
+          ><ion-icon class="icon" name="code-download-outline"></ion-icon
+          >Code</a
+        >
+      </div>
+      <div class="Download-btn">
+        <div class="heading">
+          <h1>FileVault</h1>
+          <p>
+            FileVault is a user-controlled file management system designed to
+            provide a secure and seamless experience for uploading, storing, and
+            downloading files. This project prioritizes user security and
+            privacy, offering a platform where users have full control over
+            their files.
+          </p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="info-heading"><h1>FileVault Is</h1></div>
+        <div class="info-1">
+          <div data-aos="fade-right" class="image">
+            <img src="src/image/login_page.png" alt="" />
+          </div>
+          <p>
+            Users enter credentials on the login page, which are authenticated
+            and compared to stored hashed passwords on the server. Successful
+            authentication creates a session, enabling access to authorized
+            resources.
+          </p>
+        </div>
+        <div class="info-1">
+          <p>
+            The upload page allows users to easily add files to the system.
+            Users select files from their devices, providing a brief description
+            if needed. Once uploaded, files are securely stored on the server,
+            ensuring data integrity.
+          </p>
+          <div class="image">
+            <img src="src/image/upload_page.png" alt="" />
+          </div>
+        </div>
+        <div class="info-1">
+          <div class="image">
+            <img src="src/image/login_page.png" alt="" />
+          </div>
+          <p>
+            Customize Your Experience: Personalize the look and feel of the
+            project according to your preferences! With the power of CSS, you
+            can easily change colors, layouts, and styles to match your unique
+            taste. Make the project truly yours and enjoy a design that
+            resonates with you.
+          </p>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-heading"><h1>More Projects</h1></div>
+        <div class="project-row">
+          <div class="project-card">
+            <div class="card-header"><h2>MAPAPER</h2></div>
+            <div class="card-img">
+              <img src="src/image/project-1.png" alt="" />
+            </div>
+            <div class="card-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia repudiandae labore quis quam cum distinctio enim sunt
+                tenetur corrupti facilis!
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://siddhantsatote.github.io/mapaper/"
+                >VIEW PROJECT</a
+              >
+              <h1>></h1>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="card-header"><h2>FASTYPE</h2></div>
+            <div class="card-img">
+              <img src="src/image/project-2.png" alt="" />
+            </div>
+            <div class="card-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia repudiandae labore quis quam cum distinctio enim sunt
+                tenetur corrupti facilis!
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://siddhantsatote.github.io/Fastype/"
+                >VIEW PROJECT</a
+              >
+              <h1>></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <ul>
+          <li>
+            <a href="index.html">HOME</a>
+            <a href="src/setup.html">INSTALLATION</a
+            ><a href="src/about.html">ABOUT</a
+            ><a href="src/contact.html">CONTACT</a>
+          </li>
+          <li><a href="https://github.com/siddhantsatote/filevault">GITHUB</a></li>
+        </ul>
+      </div>
+      <div class="responsive-menu">
+        <h1 href=""><ion-icon name="reorder-three-outline"></ion-icon></h1>
+      </div>
+      <div class="responsive-menu-bar">
+        <ul>
+          <li><a class="menu" href="./index.html">HOME</a></li>
+          <li><a href="./src/setup.html">INSTALLATION</a></li>
+          <li><a href="./src/about.html">ABOUT</a></li>
+          <li><a href="./src/contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+    <script>
+      const menu = document.querySelector(".responsive-menu");
+      const headerul = document.querySelector(".responsive-menu-bar");
+
+      menu.addEventListener("click", () => {
+        menu.classList.toggle("active");
+        headerul.classList.toggle("active");
+      });
+    </script>
+    <script src="src/js/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FileVault</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="menu-bar">
+          <div class="logo"><h2>FileVault</h2></div>
+          <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="setup.html">INSTALLATION</a></li>
+            <li><a class="menu" href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="Download-btn">
+        <div class="heading">
+          <h1>About</h1>
+          <p>
+            SecureFileShare is a user-controlled file management system designed
+            to provide a secure and seamless experience for uploading, storing,
+            and downloading files. This project prioritizes user security and
+            privacy, offering a platform where users have full control over
+            their files while ensuring data integrity and confidentiality.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="responsive-menu2">
+      <h1 href=""><ion-icon name="reorder-three-outline"></ion-icon></h1>
+    </div>
+    <div class="responsive-menu-bar2">
+      <ul>
+        <li><a class="menu" href="../index.html">HOME</a></li>
+        <li><a href="setup.html">INSTALLATION</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+    <script>
+      const menu = document.querySelector(".responsive-menu2");
+      const headerul = document.querySelector(".responsive-menu-bar2");
+
+      menu.addEventListener("click", () => {
+        menu.classList.toggle("active");
+        headerul.classList.toggle("active");
+      });
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

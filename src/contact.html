@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>upload</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="menu-bar">
+          <div class="logo"><h2>FileVault</h2></div>
+          <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="setup.html">INSTALLATION</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a class="menu" href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container-contact">
+        <div class="form-container">
+          <form
+            class="form"
+            action="https://formsubmit.co/satotecodes@email.com"
+            method="POST"
+          >
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required="" />
+            </div>
+            <div class="form-group">
+              <label for="textarea">How Can We Help You?</label>
+              <textarea
+                name="textarea"
+                id="textarea"
+                rows="10"
+                cols="50"
+                required=""
+              >
+              </textarea>
+            </div>
+            <button class="form-submit-btn" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="responsive-menu3">
+        <h1 href=""><ion-icon name="reorder-three-outline"></ion-icon></h1>
+      </div>
+      <div class="responsive-menu-bar3">
+        <ul>
+          <li><a class="menu" href=".,/index.html">HOME</a></li>
+          <li><a href="setup.html">INSTALLATION</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+    <script>
+      const menu = document.querySelector(".responsive-menu3");
+      const headerul = document.querySelector(".responsive-menu-bar3");
+
+      menu.addEventListener("click", () => {
+        menu.classList.toggle("active");
+        headerul.classList.toggle("active");
+      });
+    </script>
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+  </body>
+</html>

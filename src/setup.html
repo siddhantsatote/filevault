@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>upload</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/setup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="menu-bar">
+          <div class="logo"><h2>FileVault</h2></div>
+          <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a class="menu" href="setup.html">INSTALLATION</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="Download-btn">
+        <div class="heading">
+          <h1>SetUp</h1>
+          <p>
+            Remember that setting up a project like this involves some technical
+            knowledge, so don't hesitate to seek help from a web developer or IT
+            professional if needed. This guide provides a general overview, and
+            the specific steps might vary based on your hosting provider and
+            server configuration. <a href="https://drive.google.com/drive/folders/1mwuUlM_q9JhcgSWDGt1HlTrx85nDjiFh?usp=sharing">Get the code</a>
+          </p>
+        </div>
+        <div class="down-arrow">
+          <ion-icon name="chevron-down-outline"></ion-icon>
+        </div>
+      </div>
+    </div>
+    <div class="steps">
+      <h2>HOW TO DOWNLOAD AND SETUP</h2>
+      <div class="step">
+        <h5>
+          Step-1 <br />
+          Download File from Drive
+        </h5>
+        <p>
+          Go to your Google Drive and locate the "SecureFileShare" project
+          folder. Right-click the folder and select "Download". This will
+          download a ZIP file containing the project files.
+        </p>
+      </div>
+      <div class="step">
+        <h5>Step-2 <br />Extract ZIP File</h5>
+        <p>
+          After downloading, extract the ZIP file to a location on your local
+          computer. The extracted folder should contain the project's HTML, CSS,
+          JavaScript, PHP, and other files.
+        </p>
+      </div>
+      <div class="step">
+        <h5>
+          Step-3 <br />
+          Upload Files to Server
+        </h5>
+        <p>
+          Use an FTP client (e.g., FileZilla) or your hosting provider's file
+          manager to upload the extracted project folder to your web server's
+          public directory (often called public_html or www).
+        </p>
+      </div>
+      <div class="step">
+        <h5>Step-4 <br />Create MySQL Database</h5>
+        <p>
+          Log in to your hosting control panel. Create a new MySQL database and
+          note down the database name, username, password, and hostname.
+        </p>
+      </div>
+      <div class="step">
+        <h5>Step-5 <br />Import Database Tables</h5>
+        <p>
+          In your hosting control panel, look for a tool like phpMyAdmin. Use
+          phpMyAdmin to import the database file that came with the project (if
+          provided). This will create the necessary tables.
+        </p>
+      </div>
+      <div class="step">
+        <h5>Step-6 <br />Configure Database</h5>
+        <p>
+          Inside the project folder, locate the database.php file. Open
+          database.php in a text editor and update the database connection
+          parameters (hostname, username, password, database name) with the
+          values from your MySQL database.
+        </p>
+      </div>
+      <div class="deploy-step">
+        <h2>HOW TO HOST YOUR PROJECT</h2>
+        <div class="step">
+          <h5>Step-1 <br />Sign Up for 000webhost:</h5>
+          <p>
+            Visit the 000webhost website
+            <a href="https://www.000webhost.com/"
+              >https://www.000webhost.com/</a
+            >
+            . Sign up for a free account and follow the instructions to set up
+            your account.
+          </p>
+        </div>
+        <div class="step">
+          <h5>
+            Step-2 <br />
+            Create a New Website
+          </h5>
+          <p>
+            After signing up and logging in, click on the "Build website"
+            button. Choose the "Upload Own Website" option.
+          </p>
+        </div>
+        <div class="step">
+          <h5>Step-3 <br />Upload to 000webhost</h5>
+          <p>
+            In the file manager, click on the "Upload" button and select the ZIP
+            file containing the "SecureFileShare" project. Once uploaded, click
+            on the uploaded ZIP file and select "Extract" to extract the files.
+          </p>
+        </div>
+        <div class="step">
+          <h5>
+            Step-4 <br />
+            Create MySQL Database
+          </h5>
+          <p>
+            Go back to the 000webhost dashboard and find the "Manage databases"
+            section. Create a new MySQL database and note down the database
+            name, username, password, and hostname.
+          </p>
+        </div>
+        <div class="step">
+          <h5>Step-5 <br />Configure Connection</h5>
+          <p>
+            Inside the project folder, locate the database.php file. Open
+            database.php in the built-in code editor or a text editor and update
+            the database connection parameters (hostname, username, password,
+            database name) with the values from your 000webhost MySQL database.
+          </p>
+        </div>
+        <div class="step">
+          <h5>Step-6 <br />Access the Project</h5>
+          <p>
+            Go back to the "Website Manager" and click on your website's name.
+            Access the website's URL provided by 000webhost to access the
+            project (e.g., https://yourwebsite.000webhostapp.com).
+          </p>
+        </div>
+        <div class="step">
+          <h5>Step-7 <br />Testing</h5>
+          <p>
+            Test the user registration, login, file upload, and download
+            functionalities thoroughly. If you encounter any issues, refer to
+            the error messages, check your database configuration, and review
+            your server logs for additional information.
+          </p>
+        </div>
+      </div>
+      <div class="responsive-menu4">
+        <h1 href=""><ion-icon name="reorder-three-outline"></ion-icon></h1>
+      </div>
+      <div class="responsive-menu-bar4">
+        <ul>
+          <li><a class="menu" href="../index.html">HOME</a></li>
+          <li><a href="setup.html">INSTALLATION</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer">
+      <ul>
+        <li>
+          <a href="../index.html">HOME</a>
+          <a href="setup.html">INSTALLATION</a><a href="about.html">ABOUT</a
+          ><a href="contact.html">CONTACT</a>
+        </li>
+        <li><a href="https://github.com/siddhantsatote/filevault">GITHUB</a></li>
+      </ul>
+    </div>
+    <script>
+      const menu = document.querySelector(".responsive-menu4");
+      const headerul = document.querySelector(".responsive-menu-bar4");
+
+      menu.addEventListener("click", () => {
+        menu.classList.toggle("active");
+        headerul.classList.toggle("active");
+      });
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
