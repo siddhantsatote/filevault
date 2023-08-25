@@ -58,7 +58,7 @@ You can customize the design of the project by editing the CSS files located in 
 
 Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
-Fork the project.
+Fork the getfilevault project.
 Create a new branch.
 Make your changes and commit them.
 Push to your fork and submit a pull request.
